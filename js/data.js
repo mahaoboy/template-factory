@@ -7,7 +7,7 @@ window.TF = {
   brand: 'TemplateFactory 源码商店',
   tagline: '一人公司源码商店',
   contact: {
-    email: 'sales@templatefactory.dev'
+    email: 'mahao_boy@sina.cn'
   },
   bundle: {
     slug: 'bundle',
