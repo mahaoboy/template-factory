@@ -88,7 +88,7 @@ npx vercel --prod
 ## 改数据 / 改邮箱
 
 - **改商品**：只编辑 `js/data.js`（价格、文件数、卖点、features），所有页面自动同步。
-- **改联系邮箱**：`js/data.js` 顶部 `contact.email` 一处 + 各 HTML 里的 `mailto:` 字面链接（全局搜索 `sales@templatefactory.dev` 替换）。
+- **改联系邮箱**：`js/data.js` 顶部 `contact.email` 一处 + 各 HTML 里的 `mailto:` 字面链接（全局搜索 `mahao_boy@sina.cn` 替换）。
 - **加商品**：`data.js` 加一条 SKU + 复制任一 `products/*.html` 改 `data-slug` 即可。
 
 ## License
