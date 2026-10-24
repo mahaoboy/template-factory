@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>价格 — TemplateFactory 源码商店</title>
+  <meta name="description" content="单套 ¥19–39，全家桶 ¥99（40 套全部打包）。真实文件数、真实价格、MIT 可商用。">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="pricing">
+
+  <header class="site-header">
+    <nav class="nav">
+      <a class="logo" href="index.html"><span class="mark">&lt;/&gt;</span> TemplateFactory</a>
+      <div class="nav-links">
+        <a href="index.html#products">全部模板</a>
+        <a href="pricing.html">价格</a>
+        <a href="index.html#faq">FAQ</a>
+        <a class="nav-cta" href="mailto:sales@templatefactory.dev?subject=%5B%E6%BA%90%E7%A0%81%E8%AE%A2%E8%B4%AD%5D%20%E5%85%A8%E5%AE%B6%E6%A1%B6%C2%A599&amp;body=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E8%B4%AD%E4%B9%B0%E5%85%A8%E5%AE%B6%E6%A1%B6%EF%BC%88%E5%85%A8%E9%83%A840%E5%A5%97%E6%BA%90%E7%A0%81%E6%A8%A1%E6%9D%BF%EF%BC%89%EF%BC%8C%E8%AF%B7%E5%9B%9E%E5%A4%8D%E4%BB%98%E6%AC%BE%E6%96%B9%E5%BC%8F%E5%92%8C%E7%BD%91%E7%9B%98%E9%93%BE%E6%8E%A5%EF%BC%8C%E8%B0%A2%E8%B0%A2%EF%BC%81">全家桶 ¥99</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section style="padding-bottom:36px">
+      <div class="container">
+        <div class="section-head">
+          <span class="kicker">定价</span>
+          <h2>单套 vs 全家桶</h2>
+          <p>数学很简单：15 套在售单买合计 ¥345，全家桶 ¥99 全拿走。价格表与商品页共用同一份 data.js 数据，所见即所买。</p>
+        </div>
+
+        <div class="pricing-grid">
+          <!-- 单套 -->
+          <div class="plan">
+            <h3>单套</h3>
+            <p class="plan-sub">按需购买，先试一套</p>
+            <div class="plan-price">¥19<span style="font-size:16px;color:var(--text-dim);font-weight:400"> 起</span></div>
+            <ul>
+              <li><b>15 套在售</b>任选其一</li>
+              <li>完整工程源码 + README 部署文档</li>
+              <li><b>MIT License</b>：可商用、可二改</li>
+              <li>7 天售后</li>
+              <li>拍下 24h 内发网盘链接</li>
+            </ul>
+            <a class="btn btn-ghost btn-block" href="index.html#products">去挑一套 →</a>
+          </div>
+
+          <!-- 全家桶 -->
+          <div class="plan featured">
+            <span class="plan-flag">最划算 · 省 93%</span>
+            <h3>全家桶</h3>
+            <p class="plan-sub">全部 40 套一次打包</p>
+            <div class="plan-price">¥99<span class="orig">划线价 ¥1,370</span></div>
+            <ul>
+              <li><b>当前 15 套在售</b>全部包含（522 个真实文件）</li>
+              <li><b>后续 25 套上新免费补发</b>（Electron / Tauri / SvelteKit / Stripe / Playwright…）</li>
+              <li>全部 MIT License，可商用可二改</li>
+              <li>7 天售后 + <b>15 分钟远程部署指导</b>（可多次）</li>
+              <li>相当于每套 ¥2.5，比一杯咖啡还便宜</li>
+            </ul>
+            <a class="btn btn-gold btn-block" data-mailto-order="bundle" href="#">邮件下单全家桶</a>
+          </div>
+
+          <!-- 定制 -->
+          <div class="plan">
+            <h3>AI 代开发</h3>
+            <p class="plan-sub">模板基础上定制改造</p>
+            <div class="plan-price">¥99<span style="font-size:16px;color:var(--text-dim);font-weight:400"> 起</span></div>
+            <ul>
+              <li>小工具 / 爬虫 / 浏览器插件</li>
+              <li>模板改皮、加功能、接后端</li>
+              <li><b>先出方案再付款</b>，24h 内交付</li>
+              <li>交付完整源码 + 部署文档</li>
+              <li>仅接合法合规需求</li>
+            </ul>
+            <a class="btn btn-ghost btn-block" href="mailto:sales@templatefactory.dev?subject=%5B%E5%AE%9A%E5%88%B6%E5%BC%80%E5%8F%91%E5%92%A8%E8%AF%A2%5D&amp;body=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%9C%89%E5%AE%9A%E5%88%B6%E9%9C%80%E6%B1%82%EF%BC%8C%E8%AF%B7%E5%87%BA%E6%96%B9%E6%A1%88%E5%92%8C%E6%8A%A5%E4%BB%B7%EF%BC%9A%0A%0A%E9%9C%80%E6%B1%82%E6%8F%8F%E8%BF%B0%EF%BC%9A%0A%E5%B8%8C%E6%9C%9B%E5%9F%BA%E4%BA%8E%E5%93%AA%E5%A5%97%E6%A8%A1%E6%9D%BF%E6%94%B9%E9%80%A0%EF%BC%9A%0A%E6%9C%9F%E6%9C%9B%E4%BA%A4%E4%BB%98%E6%97%B6%E9%97%B4%EF%BC%9A">邮件咨询定制 →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 单套明细表 -->
+    <section style="padding-top:20px">
+      <div class="container">
+        <div class="section-head">
+          <span class="kicker">单套明细</span>
+          <h2>15 套在售，文件数真实可查</h2>
+          <p>下表由 data.js 渲染，与商品详情页同源。标了划线价的为限时优惠。</p>
+        </div>
+        <div class="sku-table-wrap">
+          <table class="sku-table">
+            <thead>
+              <tr>
+                <th>模板</th>
+                <th>文件数</th>
+                <th>分类</th>
+                <th>价格</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody id="pricing-tbody"></tbody>
+          </table>
+        </div>
+        <p style="margin-top:18px;color:var(--text-faint);font-size:13px">
+          合计：15 套单买共 <b style="color:var(--gold);font-family:var(--mono)" id="sum-single"></b>，全家桶 <b style="color:var(--gold);font-family:var(--mono)">¥99</b>（划线价 ¥1,370 · 40 套单买合计）。
+          划线价为原价，优惠随时可能结束。
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>TemplateFactory 源码商店</h4>
+          <p>一人公司源码商店。每套模板都是完整生产级工程：真实文件数、README 部署文档、MIT LICENSE。</p>
+        </div>
+        <div>
+          <h4>商店</h4>
+          <ul>
+            <li><a href="index.html#products">全部模板</a></li>
+            <li><a href="pricing.html">价格表</a></li>
+            <li><a href="index.html#faq">常见问题</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>联系</h4>
+          <ul>
+            <li><a href="mailto:sales@templatefactory.dev">sales@templatefactory.dev</a></li>
+            <li><a href="#" data-copy-email>点击复制邮箱</a></li>
+            <li>工作时间 24h 内回复</li>
+          </ul>
+        </div>
+      </div>
+      <div class="disclaimer">
+        免责声明：本站销售的是源码模板文件，交付形式为网盘链接，不含代部署、云服务器、第三方 API 密钥或任何订阅费用。模板按「现状」交付（MIT License），购买即表示已确认自己的运行环境满足 README 要求。买家应遵守所在地法律法规，将模板用于合法用途。<br>
+        &copy; 2026 TemplateFactory. MIT License.
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    // 单套合计（与 data.js 同源计算）
+    (function () {
+      var sum = 0;
+      window.TF.products.forEach(function (p) { sum += p.price; });
+      var el = document.getElementById('sum-single');
+      if (el) el.textContent = '¥' + sum;
+    })();
+  </script>
+</body>
+</html>
